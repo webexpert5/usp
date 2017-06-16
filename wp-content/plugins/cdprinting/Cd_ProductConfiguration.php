@@ -77,6 +77,7 @@
 					<!-- The global progress bar -->
 					<div id="progress" class="progress">
 					   <div class="progress-bar progress-bar-success"></div>
+					<div class="fill"></div>	
 					</div>
 					<div id="files" class="files"></div>	
 					</div>
@@ -129,7 +130,7 @@
 						},
 						progressall: function (e, data) {
 						    var progress = parseInt(data.loaded / data.total * 100, 10);
-						    $('#progress .progress-bar').css(
+						    $('#progress .fill').css(
 							'width',
 							progress + '%'
 						    );
