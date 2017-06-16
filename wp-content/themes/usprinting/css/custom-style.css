@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************************************/
+
+/******* CSS FOR MEDIA QUERIES STARTS HERE *********/
+
+/****************************************/
+
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	 
+.cart-status li a{ font-size:18px !important;}
+	 
+ }
+
+.reset_variations {
+    display: none !important;
+}
+.codedrill-additional-fields {
+    float: left;
+    
+    width: 100%;
+}
+
+@media (max-width:479px) {
+	.page .topbar-navigation ul{ float: left !important;width: 100%; margin-bottom: 7px;}
+	.order-upload-page-form .wpcf7-response-output.wpcf7-display-none{font-size: 12px;top:45px;}
+	#content .usaprinting-contact-us h2.vc_custom_heading{font-size:20px;}
+	#content .estimate-form-input{ width:98%; margin:0 1%; float:left;}
+	.estimate-page-projectinfo .wpcf7-response-output.wpcf7-display-none{top: 70px;font-size: 13px; margin: 0;}	
+	#wpcf7-f105-p26-o1 {margin-top: 75px;}	
+	.page #register-custom-block .um-row .um-field{ width:100%; margin:0; padding:0;}
+	.site-main form.woocommerce-ordering{ width: 50%; float:right !important;}
+	.site-main .woocommerce-result-count{box-sizing: border-box;line-height: 26px;font-size: 14px; width:50%; text-align:center;margin: 20px 0;
+    padding: 0 15px 0 0;}
+	.site-main form.woocommerce-ordering select{ font-size: 12px;}
+}
+
+@media (min-width:480px) and (max-width:767px) {
+	.site-main .woocommerce-result-count{ line-height:40px;}
+	.site-main form.woocommerce-ordering{ width: 62%; float:right !important;}
+	.site-main form.woocommerce-ordering select{ width:80%;}
+	.page .login-bar li:last-child a { padding-left:30px;}
+	.page .login-bar li{display: block; float: left; width: 33.33%;}
+	.order-upload-page-form .wpcf7-response-output.wpcf7-display-none{font-size: 14px;}
+	#content .usaprinting-contact-us h2.vc_custom_heading{font-size:22px;}
+	.estimate-page-projectinfo .wpcf7-response-output.wpcf7-display-none{top: 55px;font-size: 13px;}	
+	#register-custom-block .um-row .um-field{ width:100%; margin:0;}
+	.custom-logo-link img{ max-width:200px;}	
+	.topbar-navigation{ width:260px;}  
+	#aws-search-result-1.aws-search-result{left: auto !important;top: 40px !important; right:40px;}
+}
+
+@media (max-width:767px) {	
+	.login-bar li:first-child { display: block;float: left; padding: 0;position: static; width: 100% !important;}
+	body .custom-header{ margin-bottom:10px !important;}
+	.topbar-navigation ul {float: left;padding: 0;}
+	.page .login-bar li:last-child a { background-position: 10px center;background-size: 13px auto;}
+	.page .login-bar li a:hover{ text-decoration:underline;}
+	.page-contact-medium-header{ font-size:20px;}	
+	.usaprinting-contact-block1 .wpcf7-response-output.wpcf7-display-none{font-size: 14px;top: 40px;}
+	#content .company-cont-details li strong{ display:block;}	
+	.page-id-276 .entry-content.right-content{padding: 0 15px;}
+	.page-id-276 .entry-content.right-content .custom-login-register .vc_col-sm-6 { width:100%;margin: 20px 0;}
+	
+	
+}
+
+@media (min-width:767px) {
+	#content .vc_row{ margin:0;}
+	.page-id-276 .entry-content.right-content{padding: 0 15px;}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.site-main .woocommerce-result-count{ line-height:40px;}
+	.our-work-qualities .vc_col-sm-2{min-height:300px;}
+	.product .woocommerce-tabs.wc-tabs-wrapper .tabs.wc-tabs{float: left;margin: 20px 0;width: 100%;}
+	.product .woocommerce-tabs.wc-tabs-wrapper .tabs.wc-tabs li{width: 20%;}
+	.custom-header, .cart-status{ height: 135px;}
+	.topbar-navigation .cart-status{ width:130px;}
+	.page-id-276 .entry-content.right-content{padding: 0 15px;}
+	#content .company-cont-details li strong{ display:block;}
+	#content .usaprinting-contact-us h2.vc_custom_heading{font-size:26px;}
+	#content .contact-main-content{padding-right: 15px;}
+	#content .usaprinting-contact-block3 h2.vc_custom_heading{ padding: 5px 0 0 10px; font-size: 20px;}
+	.usaprinting-contact-block1 .wpcf7-response-output.wpcf7-display-none{font-size: 13px;top: 35px;}
+}
+
+@media (min-width:992px) and (max-width:1199px) {	
+	.our-work-qualities .vc_col-sm-2{min-height:345px;}
+	#masthead .header-top .wrap a.custom-logo-link{padding: 10px 0 !important;}
+	.custom-header, .cart-status{ height: 135px;}
+	.usaprinting-contact-block1 .wpcf7-response-output.wpcf7-display-none{font-size: 13px;}
+	#content .company-cont-details li strong{ display:block;}
+	#content .company-cont-details li{font-size: 17px;}
+	#content .contact-main-content { padding-right: 15px;}	
+	.page-id-276 .entry-content.right-content{padding: 0 15px;}
+	#content .usaprinting-contact-block3 h2.vc_custom_heading{padding: 10px 0 0 10px;}
+}
+
+@media (min-width:1200px) {
+	.our-work-qualities .vc_col-sm-2{min-height:325px;}
+}
+
+/****************************************/
+
+/******* CSS FOR MEDIA QUERIES Ends HERE *********/
+
+/****************************************/

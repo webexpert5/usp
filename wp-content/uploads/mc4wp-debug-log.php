@@ -1,0 +1,24 @@
+<?php exit; ?>
+[2016-12-21 14:11:23] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:12:46] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:15:22] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:17:20] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:17:54] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:20:53] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:21:43] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:23:58] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:27:55] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:28:15] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:30:58] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:34:27] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:35:22] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:36:58] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:38:21] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:39:29] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:41:02] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:41:22] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:41:32] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:41:41] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:44:21] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:44:28] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.
+[2016-12-21 14:44:37] ERROR: Form 45 > MailChimp API error: 400 Bad Request. abc@ex*****.com looks fake or invalid, please enter a real email address.

@@ -1,0 +1,990 @@
+/*
+ * This File contains the css for fornt end pages of the plugin like submissions
+ *
+ * NOTE: This File is not a theme/css file for Front End User Created Forms.
+ */
+
+
+
+
+/*---------Common Elements---------------*/
+.rmagic * {
+    box-sizing: border-box;
+}
+
+/*----header----*/
+
+.rmagic .operationsbar {
+    display: block;
+    width: 30%;
+    float: left;
+    padding:10px;
+}
+.rm_spacing {
+    margin-top:100px;
+    clear: both;
+    width: 100%;
+    float: left;
+}
+.rm_divider{
+    width:100%;
+    size:8px;
+   clear: both;
+    float: left;
+}
+.rmagic .rmtitle {
+    display: block;
+    float: left;
+    padding: 0px 0px 25px 5px;
+    width:100%;
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+.rmagic .rmsubtitle {
+    
+    display: block;
+    float: left;
+    padding: 0px 0px 25px 5px;
+    width:100%;
+    font-size:18px;
+    text-transform: uppercase;
+    
+}
+
+
+
+.operationsbar .nav {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.operationsbar .nav ul {
+    font-size: 14px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    border:1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+
+
+.operationsbar .nav ul li, .operationsbar .nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s;
+    display: block;
+    background-color: #fbfbfb;
+}
+
+.operationsbar .nav ul li.rm-form-toggle { background: #fdf99f; color: #e6a719;}
+.operationsbar .nav ul li.rm-form-toggle:hover { background: #fdf99f; color: #c38a09; }
+
+.operationsbar .nav ul li{border-bottom: 1px solid #e5e5e5;}
+.operationsbar .nav ul li:nth-last-child(1) { border-bottom: none }
+
+.operationsbar .nav ul li:hover, .operationsbar .nav ul li:hover a, .operationsbar .nav ul li a:hover, .operationsbar .nav ul li.ui-state-active, .operationsbar .nav ul li.ui-state-active a {
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.rmagic ul li.rm-form-toggle {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 0px;
+    display: block;
+}
+
+.rmagic li.rm-form-toggle select {
+    background-color: rgb(253,253,253);
+    border: 1px solid rgb(240,240,240);
+    color: rgb(150,150,150);
+    margin-left: 10px;
+}
+
+/* Map Field CSS */
+ .rmagic .map {
+        height: 300px;
+        width: 100%;
+      }
+      .rmagic .rm-map-controls {
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .rmagic .rm_map_autocomplete {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 200px;
+      }
+
+      .rmagic .rm_map_autocomplete:focus {
+        border-color: #4d90fe;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+      
+/* Map Field css ends here */    
+
+
+/*------------Adjustments for smaller screens-----------------*/
+
+@media screen and (max-width: 700px){
+    
+    
+    table {
+        display: block;
+        overflow: auto;
+        
+    }
+}
+
+
+/*table style*/
+
+.rmagic-table {
+    display: block;
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+
+.rmagic tr:nth-child(odd) {background-color: rgb(250,250,250);
+}
+
+.rmagic table.rm-table, .rmagic table.rm-table td, .rmagic table.rm-table th  {
+    text-align: center;
+}
+
+.rmagic table.rm-table {
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+}
+
+.rmagic table.rm-table th {
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 8px;
+    background-color: rgb(240,240,240);
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px dotted silver;
+}
+
+tr {
+    transition: 0.3s;
+}
+
+.rmagic th.table-header {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgb(253,253,253);
+}
+
+.rm-user-details-card .rm-user-image {
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.rm-user-field-row:nth-last-child(1) { border-bottom: 2px solid #e5e5e5; padding-bottom:50px; }
+.rm-user-field-row:nth-child(1) { padding-top: 50px;}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: Arial, sans-serif;
+    width: 220px;
+    font-size: 14px;
+    background-color: azure;
+    opacity: 1;
+    color: #5e7071;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    border-left: 1px solid #7adfe3;
+    border-top: 1px solid #7adfe3;
+    border-bottom: 3px solid #7adfe3;
+    border-right: 3px solid #7adfe3;
+    z-index: 1;
+}
+
+.tooltip a {
+    display: block;
+    text-align: center;
+}
+
+.tooltiptext a::before {
+    content: "»";
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* The animation code */
+@keyframes textfade {
+    from {color:transparent}
+    to {color: #6db5b6}
+    
+}
+
+.rmagic-table {
+    display: block;
+}
+
+
+
+.rmagic table.rm-table img {
+    width: 25px;
+    height:25px;
+    
+}
+
+/*------Paginations-------*/
+
+.rmagic ul.rmpagination {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;;
+    margin: 0;
+    float: right;
+}
+
+.rmagic ul.rmpagination li {
+    display: inline;
+    
+}
+
+.rmagic ul.rmpagination li a {
+    color: black;
+    float: left;
+    padding: 6px 14px;
+    text-decoration: none;
+    background-color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.rmagic ul.rmpagination li a.active {
+    background-color: rgb(50,50,50);
+    color: white;
+    
+}
+
+/*----User Page----*/
+
+.rm-user-details-card {
+    display: block;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    font-weight: 200;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.rm-user-image-container {
+    width: 100%;
+    text-align: center;
+}
+.rm-user-image-container .rm-user-image img { max-width: 150px; padding: 5px;}
+
+.rm-user-fields-container {
+    width: 100%;
+    padding: 50px 10px 20px 20px;
+}
+
+.rm-user-field-row {display: block; width: 100%; float: left; padding: 10px;}
+.rm-user-field-label {display: inline-block; width: 40%; float: left; font-weight: bold;}
+.rm-user-field-value {display: inline-block; width: 60%; float: left;}
+.rm-user-field-label {text-transform: capitalize;}
+
+.rm-user-name, .rm-user-image {
+    font-size: 120%;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 5px;
+    color: #333333;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+img.rm-user {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid rgb(225,225,225);
+}
+
+/*----Submission Page----*/
+
+.rmagic .rm-submission {margin-top: 25px;}
+.rm-submission-field-row {border-bottom: 1px dotted rgb(240,240,240);}
+
+.rmagic .rm-submission, .rm-submission-field-row {
+    display: block;
+    background-color: #fffffe;
+    float: left;
+    width: 70%;
+    padding: 25px;
+}
+
+.rmagic .rm-submission-label, .rm-submission-value {
+    display: inline-block;
+    float: left;
+}
+
+.rmagic .rm-submission-label {font-weight: bold; width: 40%; text-transform: uppercase; font-size: 12px;}
+.rmagic .rm-submission-value {width: 60%;}
+
+.rmagic .rm-submission-field-row .rm-submission-attachment {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    background-color: rgb(250,250,250);
+    border: 2px dashed rgb(240,240,240);
+    width: 120px;
+    margin:0 10px 10px 0;
+}
+
+.rmagic .rm-submission-field-row .rm-submission-attachment img {
+    float: left;
+    display: block;
+    width: 100px;
+    max-height: 100px;
+    height: auto;
+}
+
+.rmagic .rm-submission-attachment-field {
+    display: block;
+    float: left;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.rmagic .rm-submission-note {
+    border-left: 4px solid red;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    float: left;
+    background: #fffffe;
+}
+
+.rmagic .rm-submission-note-text {
+    background-image: url(rm-submission-note.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    display: block;
+    width: 100%;
+    float: left;
+    font-style: italic;
+}
+
+.rmagic .rm-submission-note-attribute {
+    font-size: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: right;
+    color: rgb(175,175,175);
+}
+
+.rmagic .rm-submission-note-attribute a {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.rm_user_exists_alert {    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; width:100%;}
+
+.rmagic .rmcontent form fieldset { border:0px solid #000; margin:0px; padding:0px;}
+
+.rmagic .rmcontent .rm_input_fields_container {
+    width: 100%;
+    float: left;
+    padding-top: 20px;}
+
+/*------------Adjustments for smaller screens-----------------*/
+
+@media screen and (max-width: 700px) {
+    
+    .rmagic .rm-submission-label, .rmagic .rm-submission-value {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 120%;
+        
+    }
+    
+    .operationsbar .nav ul li, .operationsbar .nav ul li a {
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+    }
+}
+
+.rmagic .childfieldsrow {
+    width: 94%;
+    display: block;
+    float: left;
+    padding: 20px 0 0 0;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #94cdc9;
+    margin: 0 4% 2% 4%;
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+}
+
+
+
+
+.rmagic.rm_tabbing_container .rm-submission  {    padding: 0px; margin-top:0px;}
+
+.rmagic.rm_tabbing_container ul.ui-tabs-nav li a { box-shadow: 0 0px 0 0 currentColor;}
+
+
+.rm_forgot_pass {
+    margin-top: 3px;
+    float: left;
+    
+}
+
+.rmagic .rm_expiry_stat_container {padding: 10px;
+    width: 100%;
+    font-size: 150%;
+    text-align: center;}
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired .rm_pb_container {    display: block;
+    border: 2px solid #FFAE00;
+    float: left;
+    height: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5px;}
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired { width:100%;    display: inline-block;    font-size: 15px;    text-transform: uppercase;}
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired .rm_pb_container .rm_progress_bar {    display: block;
+    float: left;
+    
+    background-color: #FFDD00;
+    height: 16px;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFDD00),color-stop(1, #FFAE00));
+    background-image: -o-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -moz-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -webkit-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%);
+    background-image: -ms-linear-gradient(bottom, #FFDD00 10%, #FFAE00 60%) \9;
+    background-image: linear-gradient(to bottom, #FFDD00 10%, #FFAE00 60%);}
+
+
+.rmagic.rm_tabbing_container .rmagic-table table.rm-table { border:0px;}
+
+.rmagic.rm_tabbing_container .rmagic-table table.rm-table th, .rmagic.rm_tabbing_container .rmagic-table table.rm-table td { border:0px;    text-align: center;    padding: 10px;}
+
+.rmagic.rm_tabbing_container .rmagic-table table.rm-table td {    border-bottom: 1px dotted silver;}
+
+.search-submit {    width: 20px;}
+
+
+.operationsbar .nav ul li.ui-state-active {    background-color: #FFF;}
+
+.rmagic.rm_tabbing_container ul.ui-tabs-nav li a {    border-bottom: 0px solid #333;    outline: 0px; color: #000;}
+
+
+.rmagic .rm_expiry_stat_container .rm-formcard-expired .rm_sandclock {    }
+
+ #address .rm_ad_container .slimField {    float: left;
+    width: 16%;
+    margin-right: 5px;    margin-top: 0px} 
+ 
+  #address .rm_ad_container .wideField.rm-alone {    width: 78%;
+    float: right;}
+  
+  #address .rm_ad_container .slimField input {    width: 87%;
+    float: right;}
+  
+
+  
+    #address .rm_ad_container .wideField input { width: 100%;}
+   #address .rm_ad_container .wideField.rm-semi-field {    width: 62%;
+    float: right;}
+   
+      #address .rm_ad_container .wideField.rm-semi-field-with-label {       width: 48%;
+    float: right;}
+   
+   .rm_ad_container .label {float: left;
+    width: 20%;
+    text-align: right;}
+   
+   
+      .rm_ad_container .label.label-short {    width: 14%;}
+   
+   
+   .rm_ad_container {    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+    float: left;}
+   
+   #address {    width: 100%;
+    float: left;
+    margin-top: 12px;
+    padding: 2px;    margin-bottom: 20px;}
+
+
+
+
+
+
+/* ---------- Floating Button */
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+
+
+
+  .rm_hidden{
+      display:none;
+  }
+
+.floating_page .rm_floating_action {      position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+      width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-indent: -99999px;    box-shadow: none;float: left; background-color: #008d7d;
+
+
+}
+
+.floating_page .rm_floating_action span {
+
+background: url('../../images/floating-form-icon.png');
+background-repeat: no-repeat;width: 100px; overflow: hidden;
+    height: 100px; float: left;
+background-position: 20% 15%;
+
+
+
+}
+
+.floating_page .rm_floating_box.rm_hidden {    position: absolute;
+    bottom: 116px;
+    max-width: 300px;
+    right: 26px;
+    width: 154px;} 
+
+
+
+.floating_page .rm_floating_box.rm_hidden ul li { font-size: 12px;    padding-top: 7px;
+    padding-bottom: 7px;list-style: none;    padding-left: 10px;    border-left: 2px solid #fff;    color: #000; cursor: pointer} 
+
+
+.floating_page .rm_floating_box.rm_hidden ul li:hover {     background-color: #fafafa;
+    color: #008d7c;
+    border-left: 2px solid #008d7c;}
+
+
+.floating_page {position: fixed;
+    right: 10px;    z-index: 9999;
+    bottom: 10px;font-family: 'Roboto', sans-serif;}
+
+.floating_page .rm_floating_box.rm_hidden ul { margin:0px;    padding: 12px 0px 12px 0px;}
+
+
+
+
+
+.floating_page .rm_floating_box.rm_hidden {
+
+	background: #fff;
+	border-radius: 10px;    border-bottom-right-radius: 0px;
+}
+.floating_page .rm_floating_box.rm_hidden:after {
+    top: 97%;
+    left: 96%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.floating_page .rm_floating_box.rm_hidden:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+    border-width: 40px;
+    margin-left: -34px;
+    border-right: 0px; 
+}
+
+.floating_page .rm_floating_screens .rm_floating_screen {    z-index: 9999;
+ 
+    position: fixed; 
+    height: 100%;
+    width: 368px;
+    bottom: 0;
+    right: 0;}
+
+
+.floating_page .rm_floating_screens .rm_floating_screen {   }
+
+.floating_page .rm_floating_screens .rm_floating_screen {   background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.20); }
+
+
+.floating_page .rm_floating_screens .rm_floating_screen .rm_close_screen {    width: 100%;
+    height: 50px;
+      background-color: #f0f0f0;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+   margin-bottom: 20px;    border-bottom: 1px solid #c8c8c8;}
+
+
+
+.floating_page input[type="text"], .floating_page input[type="email"], .floating_page input[type="url"], .floating_page input[type="password"], .floating_page input[type="search"], .floating_page textarea {     background-color: #f0f0f0;}
+
+.floating_page .close-floating-icon {     background-image: url(../../images/float-close-icon.png);
+    background-repeat: no-repeat;
+    float: right;
+    text-indent: -99999px;
+    height: 15px; 
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 16px;
+    opacity: .4;
+    cursor: pointer;}
+
+
+.floating_page .close-floating-icon:hover{    opacity: 1;
+    transition: opacity .2s linear;}
+
+.floating_page .floating-bottom-buttons {    position: fixed;
+    bottom: 0px;
+    width: 100%;
+   
+    padding: 10px;
+    background-color: #f0f0f0;
+    height: 85px;
+    border-top: 1px solid #c8c8c8;padding-top: 25px;}
+
+.floating_page .floating-bottom-buttons .floating-login {    display: inline-block;
+    color: #fff;
+    border: none;
+    background: #ff6c6c;
+    transition: .1s;
+    border-radius: 4px;
+    outline: 0;    font-size: 14px;
+    cursor: pointer; font-weight: normal;padding: 5px 14px 5px 15px;}
+
+.floating_page .floating-bottom-buttons .cancel-button{    font-family: Roboto,Arial,serif;
+    display: inline-block;
+    color: #c8c8c8;
+    margin-right: 20px;
+    border-radius: 4px;
+    transition: .3s;}
+
+.floating_page .floating-bottom-buttons .cancel-button a {color: #ff6c6c;}
+
+.floating_page .rm_floating_content {     padding: 10px;
+    width: 100%;
+    float: left;     overflow-y: scroll;
+    height: 100%;}
+
+
+.rm_embedeed_form { background-color: #fefefe;
+    float: left;
+    width: 100%;font-family: 'Roboto', sans-serif; }
+
+
+
+
+
+.rm_embedeed_form .rmagic .rmcontent .rminput input[type="text"], .rm_embedeed_form .rmagic .rmcontent .rminput input[type="password"], .rm_embedeed_form .rmagic .rmcontent .rminput input[type="email"], .rm_embedeed_form .rmagic .rmcontent .rminput input[type=number], .rm_embedeed_form textarea, .rm_embedeed_form .rmagic .rmcontent .rminput select {       background-color: #f0f0f0;}
+
+.rm_embedeed_form {font-family: 'Roboto', sans-serif;}
+
+
+
+.floating_page .rm_floating_content .rm_user_gravatar {    text-align: Center;    background: rgba(255, 255, 255, 0.95);}
+
+.floating_page .rm_floating_content .rm_user_gravatar img {    width: 150px;
+    height: 150px;
+    border: 10px solid #fff;
+    border-radius: 50%;}
+
+.floating_page .rm_floating_content .rm_custom_fields .rm_custom_field {    border-top: 1px solid #f0f0f0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    width: 100%;
+    float: left;   color: #7b7b7b;
+    font-weight: 300;}
+.floating_page .rm_floating_content .rm_custom_fields .rm_custom_field .rm_custom_field_label {width: 50%;
+    float: left;}
+.floating_page .rm_floating_content .rm_custom_fields .rm_custom_field .rm_custom_field_value {width: 50%;
+    float: left;}
+
+.floating_page .rm_floating_content #rm_otp_login input {    margin-bottom: 20px;    
+    width: 100%;
+    height: 40px;font-size: 16px;}
+
+.floating_page .floating-bottom-buttons a { text-decoration: none;}
+
+.floating_page .close-floating-page-title {    width: 88%;
+    text-align: center;
+    float: left; font-size: 18px; color: #646464;    padding-top: 8px;}
+
+.nspLinks .nspLinkScroll1 div ul {
+    padding: 0 !important;
+    list-style-type: none !important;
+    padding-top: 11px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+
+.rm-table.rm-floating-submissions .rm-floating-submission {    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    max-width: 292px;
+    width: 100%;
+      margin: 0px 5%;    margin-bottom: 20px;border-radius: 8px;    float: left;}
+
+.floating_page .rm-floating-submission-form-name {       background-color: #fafafa;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #646464;
+    line-height: 36px;    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;    border-bottom: 1px solid #e1e1e1;}
+
+.rm-floating-submission-form-date { float: left;     width: 88%;font-size: 12px;
+    color: #969696;    margin-bottom: 20px;} 
+
+.rm-floating-submission-form-download { float: left;    width: 20px;}
+
+.rm-floating-submission-form-status {      float: left;
+    font-size: 12px;
+    width: 28%;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 24px;
+   }
+
+.rm-floating-submission-form-status.pending { background-color: #ffa500;}
+.rm-floating-submission-form-status.succeeded {background-color: #24b046;}
+
+
+.rm-floating-submission-form-amount{        width: 24px;
+    height: 24px;
+    float: left;
+    color: #c8c8c8;
+    font-weight: 600;
+    font-size: 18px;}
+
+.rm-floating-submission-form-content.rm-payment-from-main { width: 95%}
+
+
+.rm-floating-submission-form-date.rm-payment-from {       width: 70%;}
+
+
+
+.rm-floating-submission-form-status.completed { background-color: #24b046;}
+
+.rm-floating-submission-form-icon {   background-image: url(../../images/rm-floating-date-icon.png); background-repeat: no-repeat; width: 24px; height: 24px;    float: left;}
+
+.rm-floating-submission-form-date .date span { float: left; width: 100%;    font-weight: 700; color: #646464;}
+.rm-floating-submission-form-date .date {    float: left;
+    width: 80%;    padding-left: 12px;}
+
+.rm-floating-submission-form-content {     width: 80%;
+    margin: 0px auto;    margin-top: 12px;}
+
+.floating_page .rm_floating_content .rm_custom_fields  { margin-top: 12px}
+
+.floating_page .rm_f_notifications .rm_f_success {}
+
+.rm-floating-submission-form-download img:hover {opacity: 0.5;
+    cursor: pointer;}
+
+.floating_page .rm_floating_content .rm_custom_fields .rm_custom_field:nth-child(even) {    background-color: #fbfbfb;
+    padding-left: 8px;}
+.floating_page .rm_floating_content .rm_custom_fields .rm_custom_field:nth-child(odd) {    background-color: #fff;
+    padding-left: 8px;}
+
+.rm-no-default-from-notification { text-align: center;}
+
+@-webkit-keyframes floating_screens {
+  0%   { opacity: 0;}
+  100% { opacity: 1; }
+}
+@-moz-keyframes floating_screens {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes floating_screens {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes floating_screens {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.rm_floating_screenshhh {
+  -webkit-animation: floating_screens 5s infinite; /* Safari 4+ */
+  -moz-animation:    floating_screens 5s infinite; /* Fx 5+ */
+  -o-animation:      floating_screens 5s infinite; /* Opera 12+ */
+  animation:         floating_screens 5s infinite; /* IE 10+, Fx 29+ */
+}
+
+/*----Form Access----*/
+
+select#id_rm_fac_day,
+select#id_rm_fac_month,
+input#id_rm_fac_year {
+    width: 20%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #e1e1e1;
+    background-color: #fafafa;
+    padding: 8px;
+    margin-right: 1%;
+    color: #646464;
+    font-family: inherit;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+
+.rm-fac-dob {
+    margin: 20px 10%;
+}
+
+form#rm-fac {
+    text-align: center;
+    margin: auto;
+}
+
+/*-----Field Icons----*/
+
+i.rm_front_field_icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*----Help Text on fields. Invocations on ../js/script_rm_front.js line no 200----*/
+
+.rmagic .rmnote {
+    z-index: 9999999;
+    display: none;
+    position: absolute !important;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 14px;
+    color: #7d591b;
+    text-shadow: 0px 1px 0px #fff8d7;
+    border-style: solid;
+    border-color: #deaf66;
+    border-width: 1px 1px 4px 1px;
+    background-color: rgb(255,202,119);
+    background-image: -moz-linear-gradient( 90deg, rgb(255,202,119) 0%, rgb(255,239,162) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(255,202,119) 0%, rgb(255,239,162) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(255,202,119) 0%, rgb(255,239,162) 100%); 
+}
+
+.rmagic .rmrow {
+    position: relative !important;
+}
+
+
+.rmcontent form.rmagic-form fieldset.rmfieldset legend {    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;}
+.rm-floating-page .rm-floating-page-content .rmagic { float: none; width: 97%; margin: 0px auto;}
+
+.rmagic #rm_reset_pass_form .buttonarea {width: 100%;
+    float: left;
+    margin-top: 20px;}
+
+#rm_my_pay_tab .rm-table th {padding: 10px 0px;}
+
+#rm_edit_sub_link { clear: both;}
+
+pre.rm-pre-wrapper-for-script-tags { display:none !important; }
+
+/* Make optin texts for Mailchimp etc to take up full row width*/
+.rmagic .rm_optin_text .rmrow, .rmagic .rm_optin_text .rminput, .rmagic .rm_optin_text .rmradio {
+    width:100%;
+}

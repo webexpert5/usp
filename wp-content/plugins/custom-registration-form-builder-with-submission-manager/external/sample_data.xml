@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<RMagic>
+  <FORMS>
+    <OPTIONS>
+      <form_id>63</form_id>
+      <form_name>Sample Contact Form</form_name>
+      <form_type>0</form_type>
+      <form_user_role/>
+      <default_user_role/>
+      <form_should_send_email>1</form_should_send_email>
+      <form_redirect>none</form_redirect>
+      <form_redirect_to_page>0</form_redirect_to_page>
+      <form_redirect_to_url/>
+      <form_should_auto_expire/>
+      <form_options>O:8:"stdClass":59:{s:13:"hide_username";N;s:23:"form_is_opt_in_checkbox";N;s:19:"mailchimp_relations";N;s:16:"form_opt_in_text";N;s:21:"form_should_user_pick";N;s:20:"form_is_unique_token";N;s:16:"form_description";s:202:"A standard contact form to get your started right away with RegistrationMagic. This form has Name, Phone No., Email and Message fields. To add this form to a page or post, use shortcode [rm_form ID="1"]";s:21:"form_user_field_label";N;s:16:"form_custom_text";s:45:"Please fill out the form below to contact us.";s:20:"form_success_message";s:69:"Thank you! We have received your message and will reply back shortly.";s:18:"form_email_subject";s:29:"We have received your message";s:18:"form_email_content";s:411:"Dear&#xA0;{{Textbox_1234}},&#xD;
+&#xD;
+This is a confirmation of the message you submitted through our site. We shall get back to you soon.&#xD;
+&#xD;
+For your reference, below is a copy of your message. If any information is incorrect, please submit the form again with correct information.&#xD;
+&#xD;
+Thank you!&#xD;
+&#xD;
+Your Name:&#xA0;{{Textbox_1234}}&#xD;
+&#xD;
+Your Phone:&#xA0;{{Number_1235}}&#xD;
+&#xD;
+Your Email:&#xA0;{{Email_1233}}&#xD;
+&#xD;
+Message:&#xA0;{{Textarea_1236}}";s:21:"form_submit_btn_label";s:4:"Send";s:21:"form_submit_btn_color";N;s:25:"form_submit_btn_bck_color";N;s:15:"form_expired_by";N;s:22:"form_submissions_limit";N;s:16:"form_expiry_date";N;s:25:"form_message_after_expiry";N;s:14:"mailchimp_list";N;s:22:"mailchimp_mapped_email";N;s:27:"mailchimp_mapped_first_name";N;s:26:"mailchimp_mapped_last_name";N;s:25:"should_export_submissions";i:0;s:25:"export_submissions_to_url";N;s:10:"form_pages";N;s:14:"access_control";N;s:14:"style_btnfield";N;s:10:"style_form";N;s:15:"style_textfield";N;s:10:"auto_login";N;s:12:"cc_relations";N;s:7:"cc_list";N;s:19:"form_opt_in_text_cc";N;s:26:"form_is_opt_in_checkbox_cc";N;s:12:"aw_relations";N;s:7:"aw_list";N;s:19:"form_opt_in_text_aw";N;s:26:"form_is_opt_in_checkbox_aw";N;s:14:"enable_captcha";s:7:"default";s:16:"enable_mailchimp";N;s:15:"enable_ccontact";N;s:13:"enable_aweber";N;s:20:"display_progress_bar";s:7:"default";s:18:"sub_limit_antispam";N;s:15:"placeholder_css";N;s:15:"btn_hover_color";N;s:20:"field_bg_focus_color";N;s:16:"text_focus_color";N;s:13:"style_section";N;s:11:"style_label";N;s:18:"post_expiry_action";N;s:19:"post_expiry_form_id";N;s:14:"no_prev_button";i:1;s:18:"user_auto_approval";s:7:"default";s:25:"form_opt_in_default_state";N;s:28:"form_opt_in_default_state_cc";N;s:28:"form_opt_in_default_state_aw";N;s:18:"ordered_form_pages";N;}</form_options>
+      <created_on>2016-12-15 06:31:04</created_on>
+      <created_by>1</created_by>
+      <modified_on>2016-12-15 06:51:04</modified_on>
+      <modified_by>1</modified_by>
+    </OPTIONS>
+    <FIELDS>
+      <field_id>1233</field_id>
+      <form_id>63</form_id>
+      <page_no>1</page_no>
+      <field_label>Your Email</field_label>
+      <field_type>Email</field_type>
+      <field_value/>
+      <field_order>2</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>1</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";N;s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";N;s:27:"field_is_required_min_range";N;s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:22:"rm_form_default_fields";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";s:1:"1";s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";N;s:9:"help_text";s:73:"Please enter an email address where we can send response to your message.";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe158";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";N;s:17:"custom_validation";N;s:12:"tnc_cb_label";N;}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1234</field_id>
+      <form_id>63</form_id>
+      <page_no>1</page_no>
+      <field_label>Your Name</field_label>
+      <field_type>Textbox</field_type>
+      <field_value/>
+      <field_order>0</field_order>
+      <field_show_on_user_page>1</field_show_on_user_page>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";s:0:"";s:14:"field_timezone";N;s:16:"field_max_length";s:0:"";s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";i:1;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:28:"Please enter your full name.";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe7fd";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1235</field_id>
+      <form_id>63</form_id>
+      <page_no>1</page_no>
+      <field_label>Your Phone Number</field_label>
+      <field_type>Number</field_type>
+      <field_value/>
+      <field_order>1</field_order>
+      <field_show_on_user_page>1</field_show_on_user_page>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>1</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";s:2:"14";s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";N;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:43:"Phone number can help us reach you quickly.";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe0b0";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1236</field_id>
+      <form_id>63</form_id>
+      <page_no>1</page_no>
+      <field_label>Message</field_label>
+      <field_type>Textarea</field_type>
+      <field_value/>
+      <field_order>3</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";s:28:"Type in your message here...";s:14:"field_timezone";N;s:16:"field_max_length";s:0:"";s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";s:0:"";s:19:"field_textarea_rows";s:0:"";s:17:"field_is_required";N;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe0b7";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <SUBMISSIONS>
+      <submission_id>496</submission_id>
+      <form_id>63</form_id>
+      <data>a:4:{i:1234;O:8:"stdClass":3:{s:5:"label";s:9:"Your Name";s:5:"value";s:6:"vikram";s:4:"type";s:7:"Textbox";}i:1235;O:8:"stdClass":3:{s:5:"label";s:17:"Your Phone Number";s:5:"value";s:10:"9828170043";s:4:"type";s:6:"Number";}i:1233;O:8:"stdClass":3:{s:5:"label";s:10:"Your Email";s:5:"value";s:29:"support@RegistrationMagic.com";s:4:"type";s:5:"Email";}i:1236;O:8:"stdClass":3:{s:5:"label";s:7:"Message";s:5:"value";s:34:"I need help with RegistrationMagic";s:4:"type";s:8:"Textarea";}}</data>
+      <user_email>support@RegistrationMagic.com</user_email>
+      <child_id>497</child_id>
+      <last_child>498</last_child>
+      
+      <is_read>1</is_read>
+      <submitted_on>2016-12-15 07:22:23</submitted_on>
+      <unique_token>6314817865438721</unique_token>
+    </SUBMISSIONS>
+    <SUBMISSIONS>
+      <submission_id>497</submission_id>
+      <form_id>63</form_id>
+      <data>a:4:{i:1234;O:8:"stdClass":3:{s:5:"label";s:9:"Your Name";s:5:"value";s:5:"David";s:4:"type";s:7:"Textbox";}i:1235;O:8:"stdClass":3:{s:5:"label";s:17:"Your Phone Number";s:5:"value";s:0:"";s:4:"type";s:6:"Number";}i:1233;O:8:"stdClass":3:{s:5:"label";s:10:"Your Email";s:5:"value";s:29:"support@RegistrationMagic.com";s:4:"type";s:5:"Email";}i:1236;O:8:"stdClass":3:{s:5:"label";s:7:"Message";s:5:"value";s:187:"Hello There!&#xD;
+&#xD;
+I see you have just installed RegistrationMagic. Hope you are having fun with it. If you have any problems or questions, do not hesitate to contact me directly.&#xD;
+&#xD;
+Cheers!";s:4:"type";s:8:"Textarea";}}</data>
+      <user_email>support@RegistrationMagic.com</user_email>
+      <child_id>498</child_id>
+      <last_child>498</last_child>
+      
+      <is_read>1</is_read>
+      <submitted_on>2016-12-15 09:06:28</submitted_on>
+      <unique_token>6314817865438721</unique_token>
+    </SUBMISSIONS>
+    <SUBMISSIONS>
+      <submission_id>498</submission_id>
+      <form_id>63</form_id>
+      <data>a:4:{i:1234;O:8:"stdClass":3:{s:5:"label";s:9:"Your Name";s:5:"value";s:5:"David";s:4:"type";s:7:"Textbox";}i:1235;O:8:"stdClass":3:{s:5:"label";s:17:"Your Phone Number";s:5:"value";s:0:"";s:4:"type";s:6:"Number";}i:1233;O:8:"stdClass":3:{s:5:"label";s:10:"Your Email";s:5:"value";s:29:"support@RegistrationMagic.com";s:4:"type";s:5:"Email";}i:1236;O:8:"stdClass":3:{s:5:"label";s:7:"Message";s:5:"value";s:321:"Hello There!&#xD;
+&#xD;
+I see you have installed RegistrationMagic. I am one of the developers of this plugin and we have put countless hours to make it both powerful and easy to use. &#xD;
+&#xD;
+We sincerely hope you will enjoy using it. If you run into any problems or have questions, do not hesitate to contact me directly.&#xD;
+&#xD;
+Cheers!";s:4:"type";s:8:"Textarea";}}</data>
+      <user_email>support@RegistrationMagic.com</user_email>
+      <child_id>0</child_id>
+      <last_child>498</last_child>
+      
+      <is_read>1</is_read>
+      <submitted_on>2016-12-15 09:09:32</submitted_on>
+      <unique_token>6314817865438721</unique_token>
+    </SUBMISSIONS>
+    <STATS>
+      <stat_id>9352</stat_id>
+      <form_id>63</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481786490</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9353</stat_id>
+      <form_id>63</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481786494</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9354</stat_id>
+      <form_id>63</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481786497</visited_on>
+      <submitted_on>1481786543</submitted_on>
+      <time_taken>46</time_taken>
+      <submission_id>496</submission_id>
+    </STATS>
+    <STATS>
+      <stat_id>9355</stat_id>
+      <form_id>63</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481786557</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9356</stat_id>
+      <form_id>63</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481786561</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9357</stat_id>
+      <form_id>63</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481786565</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9358</stat_id>
+      <form_id>63</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481791489</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48568</sub_field_id>
+      <submission_id>496</submission_id>
+      <field_id>1234</field_id>
+      <form_id>63</form_id>
+      <value>vikram</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48569</sub_field_id>
+      <submission_id>496</submission_id>
+      <field_id>1235</field_id>
+      <form_id>63</form_id>
+      <value>9828170043</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48570</sub_field_id>
+      <submission_id>496</submission_id>
+      <field_id>1233</field_id>
+      <form_id>63</form_id>
+      <value>support@RegistrationMagic.com</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48571</sub_field_id>
+      <submission_id>496</submission_id>
+      <field_id>1236</field_id>
+      <form_id>63</form_id>
+      <value>I need help with RegistrationMagic</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48572</sub_field_id>
+      <submission_id>497</submission_id>
+      <field_id>1234</field_id>
+      <form_id>63</form_id>
+      <value>David</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48573</sub_field_id>
+      <submission_id>497</submission_id>
+      <field_id>1235</field_id>
+      <form_id>63</form_id>
+      <value/>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48574</sub_field_id>
+      <submission_id>497</submission_id>
+      <field_id>1233</field_id>
+      <form_id>63</form_id>
+      <value>support@RegistrationMagic.com</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48575</sub_field_id>
+      <submission_id>497</submission_id>
+      <field_id>1236</field_id>
+      <form_id>63</form_id>
+      <value>Hello There!&#xD;
+&#xD;
+I see you have just installed RegistrationMagic. Hope you are having fun with it. If you have any problems or questions, do not hesitate to contact me directly.&#xD;
+&#xD;
+Cheers!</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48576</sub_field_id>
+      <submission_id>498</submission_id>
+      <field_id>1234</field_id>
+      <form_id>63</form_id>
+      <value>David</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48577</sub_field_id>
+      <submission_id>498</submission_id>
+      <field_id>1235</field_id>
+      <form_id>63</form_id>
+      <value/>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48578</sub_field_id>
+      <submission_id>498</submission_id>
+      <field_id>1233</field_id>
+      <form_id>63</form_id>
+      <value>support@RegistrationMagic.com</value>
+    </SUBMISSION_FIELDS>
+    <SUBMISSION_FIELDS>
+      <sub_field_id>48579</sub_field_id>
+      <submission_id>498</submission_id>
+      <field_id>1236</field_id>
+      <form_id>63</form_id>
+      <value>Hello There!&#xD;
+&#xD;
+I see you have installed RegistrationMagic. I am one of the developers of this plugin and we have put countless hours to make it both powerful and easy to use. &#xD;
+&#xD;
+We sincerely hope you will enjoy using it. If you run into any problems or have questions, do not hesitate to contact me directly.&#xD;
+&#xD;
+Cheers!</value>
+    </SUBMISSION_FIELDS>
+  </FORMS>
+  <FORMS>
+    <OPTIONS>
+      <form_id>64</form_id>
+      <form_name>Sample Registration Form</form_name>
+      <form_type>1</form_type>
+      <form_user_role>a:0:{}</form_user_role>
+      <default_user_role>subscriber</default_user_role>
+      <form_should_send_email>1</form_should_send_email>
+      <form_redirect>none</form_redirect>
+      <form_redirect_to_page>0</form_redirect_to_page>
+      <form_redirect_to_url/>
+      <form_should_auto_expire/>
+      <form_options>O:8:"stdClass":59:{s:13:"hide_username";i:0;s:23:"form_is_opt_in_checkbox";N;s:19:"mailchimp_relations";N;s:16:"form_opt_in_text";N;s:21:"form_should_user_pick";N;s:20:"form_is_unique_token";N;s:16:"form_description";s:415:"This is a sample registration form that can be used to register users on your WordPress site. The form includes Username, Password, First Name, Last Name, Email, Website and Terms and Conditions fields. Feel free to edit them, remove them or add new ones as it suits your needs.&#xD;
+&#xD;
+Please note, T&amp;C field currently has dummy text. You will need to paste actual text of your terms and condition by editing the field.";s:21:"form_user_field_label";s:0:"";s:16:"form_custom_text";s:48:"Register with us by filling out&#xA0;the form below.";s:20:"form_success_message";s:105:"Thank you for registering with us! Once your account is active, we'll send you an email with the details.";s:18:"form_email_subject";s:10:"Thank you!";s:18:"form_email_content";s:183:"Hello&#xA0;{{Fname_1238}},&#xD;
+&#xD;
+Thank you for registering with us. You will soon receive an account activation email. After that you can log into our website through login page.&#xD;
+&#xD;
+Regards.";s:21:"form_submit_btn_label";s:0:"";s:21:"form_submit_btn_color";N;s:25:"form_submit_btn_bck_color";N;s:15:"form_expired_by";N;s:22:"form_submissions_limit";N;s:16:"form_expiry_date";N;s:25:"form_message_after_expiry";N;s:14:"mailchimp_list";N;s:22:"mailchimp_mapped_email";N;s:27:"mailchimp_mapped_first_name";N;s:26:"mailchimp_mapped_last_name";N;s:25:"should_export_submissions";i:0;s:25:"export_submissions_to_url";N;s:10:"form_pages";N;s:14:"access_control";N;s:14:"style_btnfield";s:0:"";s:10:"style_form";s:0:"";s:15:"style_textfield";s:0:"";s:10:"auto_login";N;s:12:"cc_relations";N;s:7:"cc_list";N;s:19:"form_opt_in_text_cc";N;s:26:"form_is_opt_in_checkbox_cc";N;s:12:"aw_relations";N;s:7:"aw_list";N;s:19:"form_opt_in_text_aw";N;s:26:"form_is_opt_in_checkbox_aw";N;s:14:"enable_captcha";s:7:"default";s:16:"enable_mailchimp";N;s:15:"enable_ccontact";N;s:13:"enable_aweber";N;s:20:"display_progress_bar";s:7:"default";s:18:"sub_limit_antispam";N;s:15:"placeholder_css";s:0:"";s:15:"btn_hover_color";s:0:"";s:20:"field_bg_focus_color";s:0:"";s:16:"text_focus_color";s:0:"";s:13:"style_section";s:0:"";s:11:"style_label";s:0:"";s:18:"post_expiry_action";N;s:19:"post_expiry_form_id";N;s:14:"no_prev_button";i:1;s:18:"user_auto_approval";s:7:"default";s:25:"form_opt_in_default_state";N;s:28:"form_opt_in_default_state_cc";N;s:28:"form_opt_in_default_state_aw";N;s:18:"ordered_form_pages";N;}</form_options>
+      <created_on>2016-12-15 07:19:35</created_on>
+      <created_by>1</created_by>
+      <modified_on>2016-12-15 09:16:52</modified_on>
+      <modified_by>1</modified_by>
+    </OPTIONS>
+    <FIELDS>
+      <field_id>1237</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>Email</field_label>
+      <field_type>Email</field_type>
+      <field_value/>
+      <field_order>3</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>1</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";N;s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";N;s:27:"field_is_required_min_range";N;s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:22:"rm_form_default_fields";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";s:1:"1";s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";N;s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe0be";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";N;s:17:"custom_validation";N;s:12:"tnc_cb_label";N;}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1238</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>First Name</field_label>
+      <field_type>Fname</field_type>
+      <field_value/>
+      <field_order>1</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";s:0:"";s:14:"field_timezone";N;s:16:"field_max_length";s:0:"";s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";i:1;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe7fd";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1239</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>Last Name</field_label>
+      <field_type>Lname</field_type>
+      <field_value/>
+      <field_order>2</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";s:0:"";s:14:"field_timezone";N;s:16:"field_max_length";s:0:"";s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";N;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe7fd";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1240</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>Website</field_label>
+      <field_type>Website</field_type>
+      <field_value/>
+      <field_order>4</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>1</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";N;s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";N;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:30:"URL of your website (optional)";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:7:"&amp;#xe894";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1241</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>Do you agree with our terms and conditions?</field_label>
+      <field_type>Terms</field_type>
+      <field_value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor metus nec elit auctor venenatis non facilisis nibh. In lorem neque, vulputate id metus id, rhoncus convallis eros. In urna erat, accumsan quis pretium nec, posuere in arcu. Nulla eleifend aliquet accumsan. Pellentesque consectetur sollicitudin orci nec suscipit. Donec sit amet risus suscipit, gravida nulla semper, interdum tellus. In cursus ultricies turpis, quis suscipit massa faucibus et. Vestibulum euismod est ac vehicula viverra. Aliquam quis est quis eros feugiat varius a non ligula.</field_value>
+      <field_order>6</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";N;s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";i:1;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:0:"";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:13:"Yes, I agree.";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1243</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>Divider</field_label>
+      <field_type>Divider</field_type>
+      <field_value/>
+      <field_order>0</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";N;s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";N;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:0:"";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1244</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>Divider</field_label>
+      <field_type>Divider</field_type>
+      <field_value/>
+      <field_order>5</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";N;s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";N;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:0:"";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <FIELDS>
+      <field_id>1245</field_id>
+      <form_id>64</form_id>
+      <page_no>1</page_no>
+      <field_label>Divider</field_label>
+      <field_type>Divider</field_type>
+      <field_value/>
+      <field_order>7</field_order>
+      <field_show_on_user_page/>
+      <is_field_primary>0</is_field_primary>
+      <field_is_editable>0</field_is_editable>
+      <field_options>O:8:"stdClass":21:{s:18:"field_is_multiline";N;s:17:"field_placeholder";N;s:14:"field_timezone";N;s:16:"field_max_length";N;s:23:"field_is_required_range";N;s:27:"field_is_required_max_range";s:0:"";s:27:"field_is_required_min_range";s:0:"";s:24:"field_is_required_scroll";N;s:19:"field_default_value";N;s:15:"field_css_class";s:0:"";s:22:"field_textarea_columns";N;s:19:"field_textarea_rows";N;s:17:"field_is_required";N;s:21:"field_is_show_asterix";N;s:18:"field_is_read_only";N;s:21:"field_is_other_option";s:0:"";s:9:"help_text";s:0:"";s:4:"icon";O:8:"stdClass":5:{s:9:"codepoint";s:0:"";s:8:"fg_color";s:6:"000000";s:8:"bg_color";s:6:"FFFFFF";s:5:"shape";s:6:"square";s:8:"bg_alpha";s:1:"1";}s:16:"field_validation";s:0:"";s:17:"custom_validation";s:0:"";s:12:"tnc_cb_label";s:0:"";}</field_options>
+    </FIELDS>
+    <STATS>
+      <stat_id>9359</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481791492</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9360</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481791496</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9361</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481791498</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9362</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481791568</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9363</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481791839</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9364</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481791858</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9365</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792000</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9367</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792061</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9369</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792155</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9371</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792183</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9373</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792204</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9374</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792311</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9375</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792354</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9377</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792379</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+    <STATS>
+      <stat_id>9379</stat_id>
+      <form_id>64</form_id>
+      <user_ip>::1</user_ip>
+      <ua_string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14</ua_string>
+      <browser_name>Safari</browser_name>
+      <visited_on>1481792424</visited_on>
+      <submitted_on/>
+      <time_taken/>
+      <submission_id/>
+    </STATS>
+  </FORMS>
+</RMagic>

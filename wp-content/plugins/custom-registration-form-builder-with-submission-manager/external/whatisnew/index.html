@@ -1,0 +1,266 @@
+<style>
+    * {
+    box-sizing: border-box;
+}
+
+
+.rm-whats-new sup {
+    text-transform: uppercase;
+    color: silver;
+}
+
+.rm-whats-new img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------Page Elements----------*/
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    background-color: rgb(239,239,239);
+    color: rgb(100,100,100);
+}
+
+a {
+    font-size: 90%;
+    text-transform: uppercase;
+    color: #ff6c6c;
+    text-decoration: none;
+}
+
+.rm-whats-new {
+    display: block;
+    position:  relative;
+    float: left;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.rm-whats-new-header {
+    font-weight: 200;
+    font-size: 24px;
+    color: #646464;
+    margin-bottom: 10px;
+}
+
+.rm-whats-new-text {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.rm-whats-new-feature-header {
+    font-size: 18px;
+}
+
+.rmred {
+    color: #ff6c6c;
+    animation-name: red;
+    animation-duration: 2s;
+}
+
+.rm-whats-new-feature-card {
+    display: block;
+    float: left;
+    width: 500px;
+    background-color: #fffffe;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    min-height: 160px;
+}
+
+.rm-whats-new-feature-card-img {
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 25px;
+}
+
+.rm-whats-new-feature-card-img img.feature {
+    max-width: 100%;
+    height: auto;
+}
+
+.rm-whats-new-feature-card-content {
+    display: block;
+    float: left;
+    padding: 10px;
+    width: 350px;
+}
+
+.rm-feature-title {
+    display: block;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.rm-feature-desc {
+    font-size: 12px;
+    padding: 10px;
+    color: #949494;
+}
+
+.rm-whats-new-footer {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+
+.rm-whats-new-close {
+    text-transform: uppercase;
+    padding: 10px;
+    color: #ff6c6c;
+    font-size: 24px;
+}
+
+.rm-whats-new-silver,
+.rm-whats-new-gold {
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 2px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.rm-whats-new-silver {
+    background-color: whitesmoke;
+    color: silver;
+}
+
+.rm-whats-new-gold {
+    background-color: lightgoldenrodyellow;
+    color: orange;
+}
+
+/*---------Animations------------*/
+
+@keyframes  red {
+    from {color:rgb(100,100,100);}
+    to {color:#ff6c6c;}
+}
+
+</style>
+    <div class="rm-whats-new">
+        <div class="rm-whats-new-header">Welcome to RegistrationMagic<span class="rmred"> v3.5.2</span></div>
+        <div class="rm-whats-new-text">As always, we are bringing a number of new features to newest edition of RegistrationMagic. And all along, it is you - the end user, who is guiding us to every subsequent release. So if you need a new feature, want to report a bug or just speak up your mind, please use the <a href="http://registrationmagic.com">contact form on our website</a>.</div>
+        
+       
+       
+    </div>
+    
+    <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/form-editing.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Editable Forms</div>
+    <div class="rm-feature-desc">Users can now edit fields after submissions, including fields in User Accounts section. To make a field editable check <em>ALLOW USERS TO EDIT THIS FIELD AFTER SUBMISSION</em> in field settings.</div>
+    </div>
+    </div>
+    
+    <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/magic-popup.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">WP Login Inside MagicPopup</div>
+    <div class="rm-feature-desc">Apart from existing OTP login, the Magic Popup now supports proper WP login. No extra configuration needed.</div>
+    </div>
+    </div>
+    
+      <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/username-password.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Force Email or Username</div>
+    <div class="rm-feature-desc">Now you can force system to use either Username or Email exclusively for logging into your site. Registration forms will automatically reflect the change.
+        
+        </div>
+        <div class="rm-whats-new-silver">Silver</div>
+        <div class="rm-whats-new-gold">Gold</div>
+    </div>
+    </div>
+    
+    <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/filters.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Boolean Filters</div>
+    <div class="rm-feature-desc">New boolean filters make it easier for you to find submissions. These new filters include <em>Notes, Attachments, Payments, Read, Unread and Blocked.</em></div>
+        <div class="rm-whats-new-gold">Gold</div>
+    </div>
+    </div>
+    
+    <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/custom-links.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Custom Links in MagicPopup</div>
+    <div class="rm-feature-desc">Add upto 3 custom links (URLs or pages) to your MagicPopup menu to truly make it your own! Links can be bound to user roles. Configuration in Global Settings.</div>
+        <div class="rm-whats-new-silver">Silver</div>
+        <div class="rm-whats-new-gold">Gold</div>
+    </div>
+    </div>
+    
+    <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/respond.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Respond to Submissions</div>
+    <div class="rm-feature-desc">Now you can manually respond to individual submissions inside the Submission Manager. Each response is attached as a separate note.</div>
+        <div class="rm-whats-new-silver">Silver</div>
+        <div class="rm-whats-new-gold">Gold</div>
+    </div>
+    </div>
+    
+       <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/unread.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Read/ Unread Submissions</div>
+    <div class="rm-feature-desc">Each new submission is marked unread and displayed in <b>bold</b> inside Submission Manager. It is automatically marked read after opening.</div>
+        <div class="rm-whats-new-gold">Gold</div>
+    </div>
+    </div>
+    
+    <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/block.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Quickly Block IP/ Email</div>
+    <div class="rm-feature-desc">It is easier than ever to block an IP or Email from submission page with a single click of the button.</div>
+        <div class="rm-whats-new-gold">Gold</div>
+    </div>
+    </div>
+    
+    <div class="rm-whats-new-feature-card">
+    <div class="rm-whats-new-feature-card-img">
+    <img class="feature" src="images/pdf.png">
+    </div>
+    <div class="rm-whats-new-feature-card-content">
+    <div class="rm-feature-title">Submission PDF in Notification</div>
+    <div class="rm-feature-desc">Submission PDF will now be attached to admin notification email.</div>
+        <div class="rm-whats-new-silver">Silver</div>
+        <div class="rm-whats-new-gold">Gold</div>
+    </div>
+    </div>
+    
+    <div class="rm-whats-new-footer">
+    Apart from these, this release is full of bug fixes and minor improvements. 
+        <div class="rm-whats-new-close"><a href="javascript:void(0)">Continue</a></div>
+    </div>
+
+<pre class='rm-pre-wrapper-for-script-tags'><script>
+    jQuery('.rm-whats-new-close').click(function(){
+        location.reload(true);
+    })
+    </script></pre>
