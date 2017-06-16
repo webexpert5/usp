@@ -76,8 +76,7 @@
 					<input type="hidden" id="front_image_id" name="option_id-front_image" value="" />	
 					<!-- The global progress bar -->
 					<div id="progress" class="progress">
-					   <div class="progress-bar progress-bar-success"></div>
-					<div class="fill"></div>	
+						<div class="fill"></div>	
 					</div>
 					<div id="files" class="files"></div>	
 					</div>
@@ -87,7 +86,7 @@
 					<input type="hidden" id="back_image_id" name="option_id-back_image" value="" />	
 					<!-- The global progress bar -->
 					<div id="progress2" class="progress">
-					   <div class="progress-bar progress-bar-success"></div>
+					   <div class="fill"></div>
 					</div>
 					<div id="files2" class="files"></div>	
 						
@@ -153,7 +152,7 @@
 						},
 						progressall: function (e, data) {
 						    var progress = parseInt(data.loaded / data.total * 100, 10);
-						    $('#progress2 .progress-bar').css(
+						    $('#progress2 .fill').css(
 							'width',
 							progress + '%'
 						    );
