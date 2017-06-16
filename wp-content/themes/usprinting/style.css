@@ -189,7 +189,7 @@ h2.login-class-custom {color: #222222;font-family: lato;font-size: 18px;font-wei
 .product-type li a:hover:before{ color:#c50102;}
 .product-type li a { /*  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #e6e6e6 0%, #e6e6e6 9%, #c2c2c2 100%) repeat scroll 0 0;  */
     background:url(images/sidebarlist.png)no-repeat center top / 100% 100%;  /* border: 1px solid #c2c2c2; *//*  border-radius: 6px; */ /*  box-shadow: -3px -7px 1px -4px #c2c2c2 inset; */ color: #fff; display: block;font-family: "Lato";font-size: 12px; padding:3px 5px 3px 20px;text-align: left;}
-.product-type li a:hover{ background:url(images/sider-bar-hover.png)no-repeat center top / 100% 100%;     transition: background 0.5s; -webkit-transition: background 0.5s; /* color:#c50102; */}
+.product-type li a:hover{ background:url(images/sidebarImg2.png)no-repeat center top / 100% 100%;     transition: background 0.5s; -webkit-transition: background 0.5s; /* color:#c50102; */ color:#000;}
 .product-type > h2 {color: #c50102;display: block;font-family: "Lato";font-size:13px;font-weight: normal;line-height: 21px;margin:5px 0 10px; max-width: 190px; overflow-wrap: break-word;  padding: 0px;
  text-transform: uppercase;}
 
