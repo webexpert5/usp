@@ -34,14 +34,15 @@
 	.site-main .woocommerce-result-count{box-sizing: border-box;line-height: 26px;font-size: 14px; width:50%; text-align:center;margin: 20px 0;
     padding: 0 15px 0 0;}
 	.site-main form.woocommerce-ordering select{ font-size: 12px;}
-}
+	.aws-container .aws-search-field { height: 28px; right: -36px !important; top: 34px !important; width: 100px !important;}
+} 
 
 @media (min-width:480px) and (max-width:767px) {
 	.site-main .woocommerce-result-count{ line-height:40px;}
 	.site-main form.woocommerce-ordering{ width: 62%; float:right !important;}
 	.site-main form.woocommerce-ordering select{ width:80%;}
 	.page .login-bar li:last-child a { padding-left:30px;}
-	.page .login-bar li{display: block; float: left; width: 33.33%;}
+	.page .login-bar li{display: inline-block; float: none; width: 33.33%;}
 	.order-upload-page-form .wpcf7-response-output.wpcf7-display-none{font-size: 14px;}
 	#content .usaprinting-contact-us h2.vc_custom_heading{font-size:22px;}
 	.estimate-page-projectinfo .wpcf7-response-output.wpcf7-display-none{top: 55px;font-size: 13px;}	
@@ -52,8 +53,8 @@
 }
 
 @media (max-width:767px) {	
-	.login-bar li:first-child { display: block;float: left; padding: 0;position: static; width: 100% !important;}
-	body .custom-header{ margin-bottom:10px !important;}
+/* 	.login-bar li:first-child { display: block;float: left; padding: 0;position: static; width: 100% !important;} */
+	body .custom-header{ margin-bottom:20px !important;}
 	.topbar-navigation ul {float: left;padding: 0;}
 	.page .login-bar li:last-child a { background-position: 10px center;background-size: 13px auto;}
 	.page .login-bar li a:hover{ text-decoration:underline;}
@@ -62,11 +63,14 @@
 	#content .company-cont-details li strong{ display:block;}	
 	.page-id-276 .entry-content.right-content{padding: 0 15px;}
 	.page-id-276 .entry-content.right-content .custom-login-register .vc_col-sm-6 { width:100%;margin: 20px 0;}
+	.login-bar li:first-child{ width:20% !important;}
+	
 	
 	
 }
 
 @media (min-width:767px) {
+	
 	#content .vc_row{ margin:0;}
 	.page-id-276 .entry-content.right-content{padding: 0 15px;}
 }

@@ -25,7 +25,7 @@ CREATE TABLE `wp_terms` (
 
 LOCK TABLES `wp_terms` WRITE;
 /*!40000 ALTER TABLE `wp_terms` DISABLE KEYS */;
-INSERT INTO `wp_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'Main Navigation','main-navigation',0),(3,'simple','simple',0),(4,'grouped','grouped',0),(5,'variable','variable',0),(6,'external','external',0),(7,'Configurabale','configurabale',0),(8,'Popular Products','popular-products',0),(9,'Our Products','our-products',0),(10,'Trade Show Displays','trade-show-displays',0),(11,'Large Format Printing','large-format-printing',0),(12,'Short Run Digital Printing','short-run-digital-printing',0),(15,'Offset Printing','offset-printing',0);
+INSERT INTO `wp_terms` VALUES (1,'Uncategorized','uncategorized',0),(2,'Main Navigation','main-navigation',0),(3,'simple','simple',0),(4,'grouped','grouped',0),(5,'variable','variable',0),(6,'external','external',0),(7,'Configurabale','configurabale',0),(8,'Popular Products','popular-products',0),(9,'Offset Printing','our-products',0),(10,'Trade Show Displays','trade-show-displays',0),(11,'Large Format Printing','large-format-printing',0),(12,'Short Run Digital Printing','short-run-digital-printing',0),(15,'Offset Printing','offset-printing',0);
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

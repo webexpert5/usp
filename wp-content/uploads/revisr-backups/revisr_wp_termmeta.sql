@@ -25,7 +25,7 @@ CREATE TABLE `wp_termmeta` (
 
 LOCK TABLES `wp_termmeta` WRITE;
 /*!40000 ALTER TABLE `wp_termmeta` DISABLE KEYS */;
-INSERT INTO `wp_termmeta` VALUES (1,7,'order','0'),(2,7,'product_count_product_cat','2'),(3,8,'order','0'),(4,8,'display_type',''),(5,8,'thumbnail_id','0'),(6,9,'order','0'),(7,9,'display_type',''),(8,9,'thumbnail_id','0'),(9,10,'order','0'),(10,10,'display_type',''),(11,10,'thumbnail_id','158'),(12,11,'order','0'),(13,11,'display_type',''),(14,11,'thumbnail_id','159'),(15,12,'order','0'),(16,12,'display_type',''),(17,12,'thumbnail_id','157'),(18,9,'product_count_product_cat','49'),(19,10,'product_count_product_cat','4'),(20,11,'product_count_product_cat','5'),(21,12,'product_count_product_cat','10'),(22,8,'product_count_product_cat','6'),(29,15,'order','0'),(30,15,'product_count_product_cat','29'),(31,15,'display_type',''),(32,15,'thumbnail_id','0');
+INSERT INTO `wp_termmeta` VALUES (1,7,'order','0'),(2,7,'product_count_product_cat','2'),(3,8,'order','0'),(4,8,'display_type',''),(5,8,'thumbnail_id','0'),(6,9,'order','0'),(7,9,'display_type',''),(8,9,'thumbnail_id','0'),(9,10,'order','0'),(10,10,'display_type',''),(11,10,'thumbnail_id','158'),(12,11,'order','0'),(13,11,'display_type',''),(14,11,'thumbnail_id','159'),(15,12,'order','0'),(16,12,'display_type',''),(17,12,'thumbnail_id','157'),(18,9,'product_count_product_cat','49'),(19,10,'product_count_product_cat','4'),(20,11,'product_count_product_cat','5'),(21,12,'product_count_product_cat','10'),(22,8,'product_count_product_cat','6'),(29,15,'order','0'),(30,15,'product_count_product_cat','29'),(31,15,'display_type',''),(32,15,'thumbnail_id','731');
 /*!40000 ALTER TABLE `wp_termmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
